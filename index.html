@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Santa's Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"/>
+</head>
+  
+  <div class="container">
+    <body>
+        <img src="src/santa.svg" alt="" width="300px">
+   <br/>
+      <h1>Santa's Weather App</h1>
+      <br />
+      <h2 id="display-date"></h2>
+      <br />
+      <h3 id="display-city">London</h3>
+      <br/>
+      <h4 id="description">Partly Cloudy</h4>
+      <br />
+      <form >
+        <input type="search" 
+        placeholder="Enter city"
+        autofocus="on" 
+        id="city-input"/>
+        <button type="submit" class="btn btn-danger" id="search-city">Search</button>
+      <button
+                class="btn btn-success"
+                id="current-location-button"
+              >
+                Current
+              </button>
+      </form>
+      
+      <br/>
+<div class="row">
+  <div class="col-4"></div>
+     
+     <div class="col-3">
+      <img src="src/summersun.png" class="weatherpic" alt=""/> <span class="temperature" id="temperature"> 19 </span> <span class="units"> <a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a></span>
+    </div>
+
+      
+          <div class="col-3">
+              <ul>
+                  <li>Precipitation: <span id="precipitation">0</span>%</li>
+                  <li>Humidity: <span id="humidity">0</span>%</li>
+                  <li>Wind: <span id="wind">0</span>mph</li>
+              </ul>
+     </div> 
+    </div>
+<br/>
+<div class="five-day">
+      <div class="row">
+        <div class="col">
+          <h4>Tue</h4>
+          <div>⛅</div>
+          <div>12°</div>
+        </div>
+        <div class="col">
+          <h4>Wed</h4>
+          <div>⛈</div>
+          <div>11°</div>
+        </div>
+        <div class="col">
+          <h4>Thu</h4>
+          <div>🌦</div>
+          <div>13°</div>
+        </div>
+        <div class="col">
+          <h4>Fri</h4>
+          <div>⛅</div>
+          <div>12°</div>
+        </div>
+        <div class="col">
+          <h4>Sat</h4>
+          <div>☀</div>
+          <div>11°</div>
+        </div>
+         </div>   
+        <footer>
+            <br />
+          <p>Coded by ElsCash 🤶</p>
+        </footer>
+      <script src="src/index.js"></script>
+    </body>
+  </div>
+  <br/>
+</html>

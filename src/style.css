@@ -1,0 +1,77 @@
+body {
+  background-image: url(blurtree.jpg);
+  background-position: center;
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #b90909;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+h2,
+h3,
+h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+.col {
+  color: #fff;
+  text-align: center;
+}
+
+.col-3,
+.col-4 {
+  color: #b90909;
+}
+
+ul {
+  list-style: none;
+}
+
+Form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: #b90909;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.temperature {
+  font-size: 60px;
+}
+.units {
+  position: relative;
+  top: -15px;
+  font-size: 40px;
+}
+.five-day {
+  background-color: rgba(211, 159, 62, 0.3);
+  border: 1px black solid;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 8px 8px 6px black;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.weatherpic {
+  margin: 0 auto;
+  width: 100px;
+  bottom: 20px;
+  display: inline-block;
+}
