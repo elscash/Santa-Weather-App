@@ -90,3 +90,13 @@ img {
   bottom: 20px;
   display: inline-block;
 }
+
+.active {
+  color: #b90909;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
