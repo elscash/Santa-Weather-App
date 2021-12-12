@@ -12,13 +12,18 @@ h1 {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-h2,
+h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
+  font-size: 45px;
+}
 h3,
 h4 {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 30px;
+  margin-left: 30px;
+  font-size: 25px;
 }
 
 .col {
@@ -58,8 +63,8 @@ img {
 }
 .units {
   position: relative;
-  top: -15px;
-  font-size: 40px;
+  top: -30px;
+  font-size: 20px;
 }
 .five-day {
   background-color: rgba(211, 159, 62, 0.3);
