@@ -20,7 +20,7 @@ function formatDate(todaysDate) {
     "September",
     "October",
     "November",
-    "Decemeber",
+    "December",
   ];
 
   let formatDay = days[todaysDate.getDay()];
