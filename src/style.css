@@ -87,6 +87,7 @@ img {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  padding-left: 100px;
 }
 
 .weather-forecast-min {
