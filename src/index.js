@@ -37,6 +37,27 @@ function formatDate(todaysDate) {
   return `${formatDay}  ${formatDate} ${formatMonth}<br/>${formatHour}:${formatMinutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+        <div class="col-2">
+          <div class="weather-forecast-date">${day}</div>
+          <div>⛅</div>
+          <div><span class="weather-forecast-max">12°</span><span class="weather-forecast-min"> 10°</span></div>
+        </div>
+         `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
@@ -118,3 +139,4 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("London");
+displayForecast();

@@ -27,21 +27,7 @@ h4 {
   font-size: 25px;
 }
 
-h5 {
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-}
-
-.col {
-  color: #fff;
-  text-align: center;
-}
-
-.col-3,
-.col-2,
-.col-4,
-.col-6 {
+.col-4 {
   color: #b90909;
   font-size: 20px;
 }
@@ -101,6 +87,18 @@ img {
   text-decoration: none;
 }
 
+.weather-forecast {
+  color: #fff;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
 .weather-forecast-min {
   opacity: 0.5;
+}
+
+.weather-forecast-date {
+  opacity: 0.9;
 }
