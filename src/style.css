@@ -100,3 +100,7 @@ img {
 .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast-min {
+  opacity: 0.5;
+}
